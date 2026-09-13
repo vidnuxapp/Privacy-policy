@@ -40,20 +40,20 @@
     <h2>1. Data Collection and Usage</h2>
     <p>The Application operates on a strict <strong>Zero Data Collection</strong> principle. We do not collect, transmit, store, or share any Personally Identifiable Information (PII) such as your name, email, phone number, location, or contact lists to any external servers. All operations are executed locally on your device.</p>
 
-    <h2>2. App Features & Third-Party Platforms</h2>
-    <p>The Application allows users to download and organize media from multiple external social platforms via URL sharing. The Application utilizes the open-source library <span class="highlight">yt-dlp</span> to process these media links locally. We do not track your search history, downloaded content, or platform preferences. <strong>Please Note: Downloading videos from YouTube is strictly prohibited and is not supported by this Application in compliance with Google Play and YouTube Terms of Service.</strong> You are solely responsible for ensuring you have the legal right to download and use the media from these third-party platforms.</p>
+    <h2>2. App Features, Link Processing & Third-Party Platforms</h2>
+    <p>The Application allows users to download and organize media from multiple external social platforms via URL sharing. The Application utilizes the open-source library <span class="highlight">yt-dlp</span> along with secure, temporary cloud-based routing to process media links. This cloud routing is strictly used for URL parsing in real-time; it does not store, log, or associate the URLs with any personal data, and the parsed data is immediately discarded. We do not track your search history, downloaded content, or platform preferences. <strong>Please Note: Downloading videos from YouTube is strictly prohibited and is not supported by this Application in compliance with Google Play and YouTube Terms of Service.</strong> You are solely responsible for ensuring you have the legal right to download and use the media from these third-party platforms.</p>
 
     <h2>3. Required Device Permissions & Justification</h2>
     <p>To provide core functionalities like background downloading and HD media playback, the Application requests specific system permissions:</p>
     <ul>
         <li><strong>Storage (READ/WRITE_EXTERNAL_STORAGE, READ_MEDIA_VIDEO/AUDIO):</strong> Strictly required to save downloaded media files to your device and to fetch them for the built-in HD Video and Audio Players.</li>
         <li><strong>Foreground Services & Wake Lock:</strong> Required to keep the application running safely in the background during heavy media downloads and while playing background audio, ensuring the Android system does not unexpectedly terminate your active tasks.</li>
-        <li><strong>Network & Internet:</strong> Required to connect to media URLs for downloading content and fetching critical in-app updates for the yt-dlp library.</li>
+        <li><strong>Network & Internet:</strong> Required to connect to media URLs for downloading content and communicating with our secure update configuration files.</li>
         <li><strong>Notifications & Vibrate:</strong> Used locally to display download progress, background audio controls, and success/failure alerts.</li>
     </ul>
 
-    <h2>4. App Updates & Analytics</h2>
-    <p>The Application features a built-in update mechanism that pings our configuration file to check for critical software updates (such as library patches). This ping does not transmit any of your personal data; it simply checks the current version code.</p>
+    <h2>4. App Updates & Configuration (CDN)</h2>
+    <p>The Application features a built-in update mechanism that communicates with secure Content Delivery Networks (CDNs) to fetch configuration files for critical software updates (such as new app versions or yt-dlp library patches). This communication does not transmit, track, or collect any of your personal data; it simply reads the latest configuration parameters (like version codes) to ensure the Application continues to function correctly.</p>
 
     <h2>5. Local Data Security (Locked Vault)</h2>
     <p>Vidnux offers a "Locked Vault" feature to secure your private media. This security is maintained 100% locally on your device's storage. We do not have access to your vault password, nor do we backup your hidden files to the cloud. In the event of device formatting or uninstallation without export, your hidden data may be permanently lost.</p>
