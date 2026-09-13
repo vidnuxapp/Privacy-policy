@@ -1,79 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Vidnux</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9fbfd;
-        }
-        .container {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        h1 { color: #005CFF; border-bottom: 2px solid #EAF2FF; padding-bottom: 10px; }
-        h2 { color: #0A1931; margin-top: 30px; }
-        p { margin-bottom: 15px; color: #555; }
-        ul { margin-bottom: 20px; color: #555; }
-        li { margin-bottom: 8px; }
-        .footer { margin-top: 40px; font-size: 0.9em; color: #777; border-top: 1px solid #EAEAEA; padding-top: 20px; }
-        .highlight { background-color: #EAF2FF; padding: 2px 6px; border-radius: 4px; font-weight: bold; color: #005CFF; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - Vidnux</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #f9f9f9;
+    color: #222;
+}
+h1, h2 {
+    color: #0b57d0;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+</style>
+
 </head>
+
 <body>
 
-<div class="container">
-    <h1>Privacy Policy for Vidnux</h1>
-    <p><strong>Effective Date:</strong> September 13, 2026</p>
+<div class="card">
+<h1>Privacy Policy for Vidnux</h1>
+<p><strong>Effective Date:</strong> 13 September 2026</p>
 
-    <p>This Privacy Policy governs your use of the <strong>Vidnux</strong> software application ("Application") created by <strong>Mohd Afshan</strong>. The Application is provided as a free, utility-based media tool. We are highly committed to protecting your privacy and ensuring transparency regarding how the Application operates.</p>
+<p>Vidnux ("we", "our", or "us") operates the Vidnux mobile application. This Privacy Policy explains how we handle user information and data.</p>
+</div>
 
-    <h2>1. Data Collection and Usage</h2>
-    <p>The Application operates on a strict <strong>Zero Data Collection</strong> principle. We do not collect, transmit, store, or share any Personally Identifiable Information (PII) such as your name, email, phone number, location, or contact lists to any external servers. All operations are executed locally on your device.</p>
+<div class="card">
+<h2>1. Information Collection</h2>
+<p>We respect your privacy.</p>
+<ul>
+<li>We do <strong>not collect</strong> personal information</li>
+<li>No login or account required</li>
+<li>No user tracking</li>
+<li>No personal data stored on servers</li>
+</ul>
+</div>
 
-    <h2>2. App Features, Link Processing & Third-Party Platforms</h2>
-    <p>The Application allows users to download and organize media from multiple external social platforms via URL sharing. The Application utilizes the open-source library <span class="highlight">yt-dlp</span> along with secure, temporary cloud-based routing to process media links. This cloud routing is strictly used for URL parsing in real-time; it does not store, log, or associate the URLs with any personal data, and the parsed data is immediately discarded. We do not track your search history, downloaded content, or platform preferences. <strong>Please Note: Downloading videos from YouTube is strictly prohibited and is not supported by this Application in compliance with Google Play and YouTube Terms of Service.</strong> You are solely responsible for ensuring you have the legal right to download and use the media from these third-party platforms.</p>
+<div class="card">
+<h2>2. Local Data Storage</h2>
+<p>All data such as downloaded videos, audio files, and locked media are stored only on your device.</p>
+<p>We do not upload or access your personal files.</p>
+</div>
 
-    <h2>3. Required Device Permissions & Justification</h2>
-    <p>To provide core functionalities like background downloading and HD media playback, the Application requests specific system permissions:</p>
-    <ul>
-        <li><strong>Storage (READ/WRITE_EXTERNAL_STORAGE, READ_MEDIA_VIDEO/AUDIO):</strong> Strictly required to save downloaded media files to your device and to fetch them for the built-in HD Video and Audio Players.</li>
-        <li><strong>Foreground Services & Wake Lock:</strong> Required to keep the application running safely in the background during heavy media downloads and while playing background audio, ensuring the Android system does not unexpectedly terminate your active tasks.</li>
-        <li><strong>Network & Internet:</strong> Required to connect to media URLs for downloading content and communicating with our secure update configuration files.</li>
-        <li><strong>Notifications & Vibrate:</strong> Used locally to display download progress, background audio controls, and success/failure alerts.</li>
-    </ul>
+<div class="card">
+<h2>3. Permissions We Use</h2>
+<ul>
+<li><strong>Storage / Media Access:</strong> To read and save videos & audio</li>
+<li><strong>Internet:</strong> Required for downloading content</li>
+<li><strong>Network State:</strong> To check connectivity</li>
+<li><strong>Notifications:</strong> To show download progress</li>
+<li><strong>Foreground Service:</strong> For background download & playback</li>
+<li><strong>Wake Lock:</strong> Prevent interruption during downloads</li>
+<li><strong>Vibration:</strong> For user feedback</li>
+</ul>
+<p>These permissions are only used for app functionality.</p>
+</div>
 
-    <h2>4. App Updates & Configuration (CDN)</h2>
-    <p>The Application features a built-in update mechanism that communicates with secure Content Delivery Networks (CDNs) to fetch configuration files for critical software updates (such as new app versions or yt-dlp library patches). This communication does not transmit, track, or collect any of your personal data; it simply reads the latest configuration parameters (like version codes) to ensure the Application continues to function correctly.</p>
+<div class="card">
+<h2>4. Third-Party Services</h2>
+<p>We use limited third-party services:</p>
+<ul>
+<li><strong>Render Server:</strong> To process video download requests</li>
+<li><strong>Cloudflare Pages:</strong> For hosting updates</li>
+</ul>
+<p>No personal data is collected or stored by these services through our app.</p>
+</div>
 
-    <h2>5. Local Data Security (Locked Vault)</h2>
-    <p>Vidnux offers a "Locked Vault" feature to secure your private media. This security is maintained 100% locally on your device's storage. We do not have access to your vault password, nor do we backup your hidden files to the cloud. In the event of device formatting or uninstallation without export, your hidden data may be permanently lost.</p>
+<div class="card">
+<h2>5. Data Security</h2>
+<p>Since we do not collect personal data, your privacy risk is minimal. All files remain under your control.</p>
+</div>
 
-    <h2>6. GDPR, CCPA, and COPPA Compliance</h2>
-    <p>Because we do not collect or process any user data, our Application is inherently compliant with the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and the Children's Online Privacy Protection Act (COPPA). The Application is safe for users of all ages.</p>
+<div class="card">
+<h2>6. User Control & Data Deletion</h2>
+<p>You have full control over your data.</p>
+<ul>
+<li>Delete files manually anytime</li>
+<li>Uninstall app to remove all data</li>
+</ul>
+</div>
 
-    <h2>7. Changes to This Privacy Policy</h2>
-    <p>We reserve the right to modify this Privacy Policy at any time. Any changes will be updated on this page with a revised "Effective Date". We encourage you to review this Privacy Policy periodically.</p>
+<div class="card">
+<h2>7. Children's Privacy</h2>
+<p>We do not knowingly collect data from children under 13. The app is safe for general users.</p>
+</div>
 
-    <h2>8. Contact Information</h2>
-    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the Application, please contact the developer:</p>
-    <ul>
-        <li><strong>Developer:</strong> Mohd Afshan</li>
-        <li><strong>Email:</strong> <a href="mailto:vidnuxapp@gmail.com">vidnuxapp@gmail.com</a></li>
-    </ul>
+<div class="card">
+<h2>8. Content Usage Disclaimer</h2>
+<p>Vidnux does not host any content.</p>
+<p>Users are responsible for the content they download or access.</p>
+<p>The app should only be used to download content that is publicly available or where the user has permission.</p>
+</div>
 
-    <div class="footer">
-        &copy; 2026 Vidnux. All rights reserved.
-    </div>
+<div class="card">
+<h2>9. Legal Compliance</h2>
+<p>We aim to comply with:</p>
+<ul>
+<li>GDPR</li>
+<li>CCPA</li>
+<li>COPPA</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>10. Changes to This Policy</h2>
+<p>We may update this Privacy Policy anytime. Updates will be posted on this page.</p>
+</div>
+
+<div class="card">
+<h2>11. Contact Information</h2>
+<p><strong>Developer Name:</strong> Mohd Afshan</p>
+<p><strong>Legal Name:</strong> Shahzad</p>
+<p><strong>Email:</strong> vidnuxapp@gmail.com</p>
+</div>
+
+<div class="card">
+<p>© 2026 Vidnux. All rights reserved.</p>
 </div>
 
 </body>
