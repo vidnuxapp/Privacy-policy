@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Vidnux</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9fbfd;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 { color: #005CFF; border-bottom: 2px solid #EAF2FF; padding-bottom: 10px; }
+        h2 { color: #0A1931; margin-top: 30px; }
+        p { margin-bottom: 15px; color: #555; }
+        ul { margin-bottom: 20px; color: #555; }
+        li { margin-bottom: 8px; }
+        .footer { margin-top: 40px; font-size: 0.9em; color: #777; border-top: 1px solid #EAEAEA; padding-top: 20px; }
+        .highlight { background-color: #EAF2FF; padding: 2px 6px; border-radius: 4px; font-weight: bold; color: #005CFF; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy for Vidnux</h1>
+    <p><strong>Effective Date:</strong> September 13, 2026</p>
+
+    <p>This Privacy Policy governs your use of the <strong>Vidnux</strong> software application ("Application") created by <strong>Mohd Afshan</strong> (Legal Entity: <strong>Shahzad</strong>). The Application is provided as a free, utility-based media tool. We are highly committed to protecting your privacy and ensuring transparency regarding how the Application operates.</p>
+
+    <h2>1. Data Collection and Usage</h2>
+    <p>The Application operates on a strict <strong>Zero Data Collection</strong> principle. We do not collect, transmit, store, or share any Personally Identifiable Information (PII) such as your name, email, phone number, location, or contact lists to any external servers. All operations are executed locally on your device.</p>
+
+    <h2>2. App Features & Third-Party Platforms</h2>
+    <p>The Application allows users to download and organize media from multiple external social platforms via URL sharing. The Application utilizes the open-source library <span class="highlight">yt-dlp</span> to process these media links locally. We do not track your search history, downloaded content, or platform preferences. You are solely responsible for ensuring you have the legal right to download and use the media from these third-party platforms.</p>
+
+    <h2>3. Required Device Permissions & Justification</h2>
+    <p>To provide core functionalities like background downloading and HD media playback, the Application requests specific system permissions:</p>
+    <ul>
+        <li><strong>Storage (READ/WRITE_EXTERNAL_STORAGE, READ_MEDIA_VIDEO/AUDIO):</strong> Strictly required to save downloaded media files to your device and to fetch them for the built-in HD Video and Audio Players.</li>
+        <li><strong>Foreground Services & Wake Lock:</strong> Required to keep the application running safely in the background during heavy media downloads and while playing background audio, ensuring the Android system does not unexpectedly terminate your active tasks.</li>
+        <li><strong>Network & Internet:</strong> Required to connect to media URLs for downloading content and fetching critical in-app updates for the yt-dlp library.</li>
+        <li><strong>Notifications & Vibrate:</strong> Used locally to display download progress, background audio controls, and success/failure alerts.</li>
+    </ul>
+
+    <h2>4. App Updates & Analytics</h2>
+    <p>The Application features a built-in update mechanism that pings our configuration file to check for critical software updates (such as library patches). This ping does not transmit any of your personal data; it simply checks the current version code.</p>
+
+    <h2>5. Local Data Security (Locked Vault)</h2>
+    <p>Vidnux offers a "Locked Vault" feature to secure your private media. This security is maintained 100% locally on your device's storage. We do not have access to your vault password, nor do we backup your hidden files to the cloud. In the event of device formatting or uninstallation without export, your hidden data may be permanently lost.</p>
+
+    <h2>6. GDPR, CCPA, and COPPA Compliance</h2>
+    <p>Because we do not collect or process any user data, our Application is inherently compliant with the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and the Children's Online Privacy Protection Act (COPPA). The Application is safe for users of all ages.</p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We reserve the right to modify this Privacy Policy at any time. Any changes will be updated on this page with a revised "Effective Date". We encourage you to review this Privacy Policy periodically.</p>
+
+    <h2>8. Contact Information</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the Application, please contact the developer:</p>
+    <ul>
+        <li><strong>Developer:</strong> Mohd Afshan</li>
+        <li><strong>Legal Entity:</strong> Shahzad</li>
+        <li><strong>Email:</strong> <a href="mailto:vidnuxapp@gmail.com">vidnuxapp@gmail.com</a></li>
+    </ul>
+
+    <div class="footer">
+        &copy; 2026 Vidnux. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
